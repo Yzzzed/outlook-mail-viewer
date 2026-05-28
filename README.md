@@ -2,7 +2,21 @@
 
 一个基于 Material You 设计的 Outlook 邮件批量管理工具，支持批量导入邮箱、查询最新邮件、标签管理和搜索过滤。
 
-[![Deploy to Cloudflare Pages](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/)
+## 🚀 快速部署
+
+### 部署到 Cloudflare Pages
+
+1. Fork 本仓库到你的 GitHub 账号
+2. 访问 [Cloudflare Pages](https://dash.cloudflare.com/pages)
+3. 点击 "Create a project" → "Connect to Git"
+4. 选择你 fork 的仓库
+5. 构建设置：
+   - **Framework preset**: `Vite`
+   - **Build command**: `pnpm install && pnpm build`
+   - **Build output directory**: `dist`
+6. 点击 "Save and Deploy"
+
+部署完成后，`functions/` 目录中的 API 代理会自动生效，无需额外配置。
 
 ## ✨ 功能特性
 
