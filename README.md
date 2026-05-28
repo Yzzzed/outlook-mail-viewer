@@ -2,6 +2,8 @@
 
 一个基于 Material You 设计的 Outlook 邮件批量管理工具，支持批量导入邮箱、查询最新邮件、标签管理和搜索过滤。
 
+[![Deploy to Cloudflare Pages](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Yzzzed/outlook-mail-viewer)
+
 ## ✨ 功能特性
 
 - 📧 **批量导入邮箱** - 支持 CDK 格式批量导入，自动过滤重复邮箱
