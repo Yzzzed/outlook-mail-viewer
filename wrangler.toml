@@ -6,5 +6,5 @@ pages_build_output_dir = "dist"
 [build]
 command = "pnpm install && pnpm build"
 
-[build.upload]
-format = "service-worker"
+[assets]
+directory = "./dist"
